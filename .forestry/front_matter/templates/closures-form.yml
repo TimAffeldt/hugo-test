@@ -1,0 +1,14 @@
+---
+label: Closures Form
+hide_body: true
+fields:
+- type: field_group_list
+  name: roads
+  label: roads
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: list
+    name: closures
+    label: closures
