@@ -1,0 +1,27 @@
+---
+label: Closures Form
+hide_body: true
+fields:
+- type: field_group_list
+  name: roads
+  label: roads
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: field_group_list
+    name: closures
+    label: closures
+    fields:
+    - type: text
+      name: date
+      label: date range
+    - type: text
+      name: description
+      label: description
+    - type: text
+      name: detour
+      label: detour
+    - type: text
+      name: icon
+      label: icon
