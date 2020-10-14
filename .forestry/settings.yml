@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/clousures2.json
+  label: Closures 2
+  match: "**/*"
+- type: document
   path: data/closures.json
   label: Closures
 - type: directory
