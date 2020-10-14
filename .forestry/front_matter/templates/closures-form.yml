@@ -15,11 +15,11 @@ fields:
     fields:
     - type: text
       name: date
-      label: date range
-    - type: text
+      label: date
+    - type: textarea
       name: description
       label: description
-    - type: text
+    - type: textarea
       name: detour
       label: detour
     - type: text
