@@ -9,6 +9,13 @@ fields:
   - type: text
     name: name
     label: name
-  - type: list
+  - type: field_group_list
     name: closures
     label: closures
+    fields:
+    - type: text
+      name: date
+      label: date range
+    - type: text
+      name: description
+      label: description
