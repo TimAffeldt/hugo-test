@@ -1,0 +1,37 @@
+---
+label: Closures Form2
+hide_body: true
+fields:
+- type: field_group
+  name: '133'
+  label: '133'
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: field_group_list
+    name: closures
+    label: closures
+    fields:
+    - type: text
+      name: date
+      label: date
+    - type: textarea
+      name: description
+      label: description
+    - type: textarea
+      name: detour
+      label: detour
+    - type: text
+      name: icon
+      label: icon
+- type: field_group
+  name: '73'
+  label: '73'
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: list
+    name: closures
+    label: closures
