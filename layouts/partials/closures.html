@@ -1,0 +1,13 @@
+<div>
+    <h2>{{.name}}</h2>
+
+    
+    {{ range .closures }}
+        <div>
+            {{.date}}
+            <p>{{.description | safeHTML }}</p>
+            <p><b>DETOUR</b> {{.detour | safeHTML }}</p>
+        <div>
+
+    {{ end }}
+</div>
