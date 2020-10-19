@@ -1,0 +1,23 @@
+---
+label: Closures Form2
+hide_body: true
+fields:
+- type: field_group_list
+  name: clousures
+  label: clousures
+  fields:
+  - type: text
+    name: road
+    label: road
+  - type: text
+    name: date
+    label: date
+  - type: textarea
+    name: description
+    label: description
+  - type: textarea
+    name: detour
+    label: detour
+  - type: text
+    name: icon
+    label: icon
