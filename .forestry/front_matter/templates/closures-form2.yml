@@ -41,5 +41,10 @@ fields:
   - type: text
     name: icon
     label: icon
+  - name: display_name
+    type: text
+    config:
+      required: false
+    label: display name
   config:
-    labelField: road
+    labelField: display_name
