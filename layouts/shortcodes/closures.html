@@ -3,6 +3,32 @@
 
 <div>
     {{ range $.Site.Data.closures.roads }}
-        {{ partial "closures.html" . }}
+    {{ partial "closures.html" . }}
+    {{ end }}
+</div>
+
+<hr />
+
+{{ $roads := slice }}
+{{ range $.Site.Data.closures2.clousures }}
+{{ $roads = $roads | append .road }}
+{{ end }}
+{{ $roads = uniq $roads | sort }}
+
+
+<div>
+    {{ range $roads }}
+    <div>
+        <h2>{{ . }}</h2>
+        {{ $road := . }}
+
+        {{ range where $.Site.Data.closures2.clousures "road" $road }}
+        {{ if .date }}
+        {{.date}}
+        <p>{{.description | safeHTML }}</p>
+        <p><b>DETOUR</b> {{.detour | safeHTML }}</p>
+        {{ end }}
+        {{ end }}
+    </div>
     {{ end }}
 </div>
