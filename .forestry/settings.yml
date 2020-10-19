@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: csv/transactions.csv
+  label: Annual Transactions
+  match: "**/*"
+- type: document
   path: data/closures2.json
   label: Closures 2
 - type: document
