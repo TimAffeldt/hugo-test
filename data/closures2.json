@@ -1,7 +1,5 @@
 {
-  
   "clousures": [
-
     {
       "display_name": "133 Toll Road SB 10/13/2020 to 10/16/2020",
       "road": "133 Toll Road",
@@ -19,10 +17,12 @@
       "icon": "red"
     },
     {
-      "display_name": "place holder",
-      "road": "73 Toll Road"
-
+      "display_name": "73 place holder",
+      "road": "73 Toll Road",
+      "date": "",
+      "description": "",
+      "detour": "",
+      "icon": ""
     }
-
   ]
 }

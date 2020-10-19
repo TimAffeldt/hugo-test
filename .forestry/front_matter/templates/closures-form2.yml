@@ -49,3 +49,5 @@ fields:
     label: display name
   config:
     labelField: display_name
+pages:
+- data/closures2.json
