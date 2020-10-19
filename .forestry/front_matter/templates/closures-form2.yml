@@ -6,8 +6,20 @@ fields:
   name: clousures
   label: clousures
   fields:
-  - type: text
-    name: road
+  - name: road
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - 73 Toll Road
+      - 133 Toll Road
+      - 241 Toll Road
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
     label: road
   - type: text
     name: date
@@ -15,9 +27,17 @@ fields:
   - type: textarea
     name: description
     label: description
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
   - type: textarea
     name: detour
     label: detour
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
   - type: text
     name: icon
     label: icon
