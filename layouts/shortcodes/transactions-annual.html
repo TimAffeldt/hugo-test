@@ -1,0 +1,23 @@
+{{ $url := "csv/transactions.csv" }}
+{{ $sep := "," }}
+
+{{ $csv := getCSV $sep $url }}
+
+
+<table>
+    <thead>
+        <tr>
+            <th>FISCAL YEAR</th>
+            <th>ACTUAL TRANSACTIONS</th>
+            <th>ACTUAL TOLL REVENUE</th>
+        </tr>
+    </thead>
+    {{ range $csv }}
+<tr>
+    <td>{{ (index . 0) }}</td>
+    <td>{{ (index . 1) }}</td>
+    <td>{{ (index . 2) }}</td>
+</tr>
+    {{ end }}
+
+</table>
