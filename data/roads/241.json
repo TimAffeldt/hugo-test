@@ -1,0 +1,11 @@
+{
+  "name": "241 Toll Road",
+  "closures": [
+    {
+      "date": "10/19/2020",
+      "description": "<p>Lanes reduced on the northbound 241 Toll Road between the 261 Toll Road interchange and the Windy Ridge Toll Point from 2 a.m. to 5 a.m. for sign work. No delays are anticipated.</p>",
+      "detour": "",
+      "icon": "yellow"
+    }
+  ]
+}

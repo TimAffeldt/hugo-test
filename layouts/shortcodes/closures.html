@@ -1,4 +1,6 @@
 
+<i>rendered with one file for all roads</i>
+
 {{ $roads := slice }}
 {{ range $.Site.Data.closures2.clousures }}
 {{ $roads = $roads | append .road }}
@@ -23,5 +25,28 @@
         {{ end }}
        
     </div>
+    {{ end }}
+</div>
+
+
+<hr />
+
+<i>rendered with separate files per road</i>
+
+<div>
+    {{ range $.Site.Data.roads }}
+    <h2>{{ .name }}</h2>
+    {{if gt (len .closures) 0}}
+    {{ range .closures }}
+    {{.date}}
+    <p>{{.description | safeHTML }}</p>
+    {{ if .detour }}
+    <p><b>DETOUR</b> {{.detour | safeHTML }}</p>
+    {{ end }}
+    {{ end }}
+    {{ else }}
+<i>There are no upcoming closures at this time.</i>
+
+    {{ end }}
     {{ end }}
 </div>
