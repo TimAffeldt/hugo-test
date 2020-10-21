@@ -1,0 +1,11 @@
+{
+  "name": "261 Toll Road",
+  "closures": [
+    {
+      "date": "10/21/2020",
+      "description": "The northbound 261 Toll Road Walnut Avenue on-ramp will be fully closed for sign work.",
+      "detour": "Travel southbound on Walnut Avenue, turn left on Culver Drive and turn left on Irvine Boulevard to reach the northbound 261 on-ramp.",
+      "icon": "red"
+    }
+  ]
+}
