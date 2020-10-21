@@ -6,6 +6,8 @@ menu:
 draft: true
 
 ---
-On The Toll Roads (State Routes 73, 133, 241 and 261) all tolls are collected electronically and can be paid with a pre-established [FasTrak](https://thetollroads.com/accounts/fastrak)® account. Visitors or infrequent users can [pay their toll(s) online](https://thetollroads.com/tolls/pay).  
-  
+On The Toll Roads (State Routes 73, 133, 241 and 261) all tolls are collected electronically and can be paid with a pre-established [FasTrak](https://thetollroads.com/accounts/fastrak)® account. Visitors or infrequent users can [pay their toll(s) online](https://thetollroads.com/tolls/pay).
+
 ![Toll Roads Map](https://thetollroads.com/sites/default/files/toll_roads_map_rates.jpg)
+
+LINK: [2019 Foothill/Eastern Audited Financial Statements (PDF)](/uploads/2019_fe_audited_financial_statements.pdf)
