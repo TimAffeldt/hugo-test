@@ -1,0 +1,23 @@
+---
+label: Road Closure
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: field_group_list
+  name: closures
+  label: closures
+  fields:
+  - type: text
+    name: date
+    label: date
+  - type: textarea
+    name: description
+    label: description
+  - type: textarea
+    name: detour
+    label: detour
+  - type: text
+    name: icon
+    label: icon

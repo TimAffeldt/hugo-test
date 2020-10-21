@@ -7,13 +7,12 @@ sections:
 - type: document
   path: data/roads/133.json
   label: roadtemp
-  match: "**/*"
 - type: directory
   path: data/roads
   label: Closures by Road
   create: documents
   match: "*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: document
   path: transactions.csv
   label: Annual Transactions
