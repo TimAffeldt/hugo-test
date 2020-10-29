@@ -1,18 +1,37 @@
 
-<div>
-    {{ range $.Site.Data.roads }}
-    <h2>{{ .name }}</h2>
-    {{if gt (len .closures) 0}}
-    {{ range .closures }}
-    {{.date}}
-    <p>{{.description | safeHTML }}</p>
-    {{ if .detour }}
-    <p><b>DETOUR</b> {{.detour | safeHTML }}</p>
-    {{ end }}
-    {{ end }}
-    {{ else }}
-<i>There are no upcoming closures at this time.</i>
 
-    {{ end }}
-    {{ end }}
+    {{ range $.Site.Data.roads }}
+<hr />
+<div class="row">
+    <div class="col-sm">
+        <div class="row">
+            <h2>{{ .name }}</h2>
+        </div>
+        {{if gt (len .closures) 0}}
+    <div class="row">
+        {{ range .closures }}
+        <div class="col-sm-1">
+            <span class="rounded-circle" style="background-color:{{ .icon }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </div>
+        <div class="col-sm-11">
+            {{.date}}
+            <p>{{.description | safeHTML }}</p>
+            {{ if .detour }}
+            <p><b>DETOUR</b> {{.detour | safeHTML }}</p>
+            {{ end }}
+
+
+        </div>
+        {{ end }}
+    </div>
+    </div>
 </div>
+    {{ else }}
+
+<div class="row bg-light">
+    <div class="col-sm">
+        <i>There are no upcoming closures at this time.</i>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
