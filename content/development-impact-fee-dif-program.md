@@ -13,7 +13,7 @@ Fees are assessed on new development within the areas of benefit of the 73, 133,
 [SJHTCA DIF Audit Findings and Mitigation Fee Act Information (PDF)](https://thetollroads.com/sites/default/files/2020S_006_SJH_DIFs_Audit_Report_signed.pdf)  
 [F/ETCA DIF Audit Findings and Mitigation Fee Act Information (PDF)](https://thetollroads.com/sites/default/files/2020F_020_FE_DIFs_Audit_Report_signed.pdf)
 
-<iframe marginheight="0" marginwidth="0" scrolling="no" src="https://thetollroads.com//sites/default/files/dif-map/index.html" title="Development Fee Program Map" width="100%" height="400" frameborder="0"></iframe>
+
 
 [View larger map (Opens in a new window) ](https://thetollroads.com/sites/default/files/dif-map/index.html)  
 ![Fee Zone Legend](https://thetollroads.com/sites/default/files/img/banner/TCAFeeZone_Legend_Large.JPG =219x154)
