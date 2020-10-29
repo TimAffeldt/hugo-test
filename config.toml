@@ -8,11 +8,6 @@ parent = "Tolls"
 url = "/maps-and-rates/"
 weight = 2
 [[menu.main]]
-name = "Pay Toll(s)"
-parent = "Tolls"
-url = "https://secure.thetollroads.com/violation/payTolls.do"
-weight = 1
-[[menu.main]]
 name = "Transaction Tables"
 parent = "About TCA"
 url = "/transaction-tables/"
@@ -21,6 +16,11 @@ weight = 1
 name = "Closures & Detours"
 parent = "News and Alerts"
 url = "/closures-detours/"
+weight = 1
+[[menu.main]]
+name = "Pay Toll(s)"
+parent = "Tolls"
+url = "https://secure.thetollroads.com/violation/payTolls.do"
 weight = 1
 [[menu.main]]
 name = "Tolls"
