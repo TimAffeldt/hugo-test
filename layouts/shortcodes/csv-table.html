@@ -1,0 +1,28 @@
+{{ $url := index .Params 0 }}
+{{ $sep := "," }}
+
+{{ $csv := getCSV $sep $url }}
+
+
+<table class="table table-bordered table-hover">
+    <thead class="thead-dark">
+        {{ range first 1 $csv }}
+        <tr>
+
+            {{range .}}
+            <th>{{ . }}</th>
+            {{end }}
+
+        </tr>
+        {{ end }}
+    </thead>
+    {{ range after 1 $csv }}
+    <tr>
+        {{range .}}
+        <td>{{ . }}</td>
+        {{end }}
+        
+    </tr>
+    {{ end }}
+
+</table>
