@@ -3,15 +3,14 @@ languageCode = "en-us"
 theme = "tca"
 title = "The Toll Roads"
 [[menu.main]]
+name = "Samples"
+url = "#"
+weight = 4
+[[menu.main]]
 name = "Maps & Rates"
 parent = "Tolls"
 url = "/maps-and-rates/"
 weight = 2
-[[menu.main]]
-name = "Transaction Tables"
-parent = "About TCA"
-url = "/transaction-tables/"
-weight = 1
 [[menu.main]]
 name = "Closures & Detours"
 parent = "News and Alerts"
@@ -21,6 +20,11 @@ weight = 1
 name = "Pay Toll(s)"
 parent = "Tolls"
 url = "https://secure.thetollroads.com/violation/payTolls.do"
+weight = 1
+[[menu.main]]
+name = "Transaction Tables"
+parent = "About TCA"
+url = "/transaction-tables/"
 weight = 1
 [[menu.main]]
 name = "Tolls"
