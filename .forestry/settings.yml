@@ -12,15 +12,6 @@ sections:
   new_doc_ext: json
   templates:
   - road-closure
-- type: document
-  path: transactions.csv
-  label: Annual Transactions
-- type: document
-  path: data/closures2.json
-  label: Closures 2
-- type: document
-  path: data/closures.json
-  label: Closures
 - type: directory
   path: content
   label: Pages
