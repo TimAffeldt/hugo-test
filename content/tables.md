@@ -11,8 +11,8 @@ draft: true
 ---
 ### Hurricanes
 
- {{< csv-table "/static/uploads/hurricanes.csv" >}}
+{{< csv-table "/static/uploads/hurricanes.csv" >}}
 
-### Deniro Movies
+### De Niro Movies
 
 {{< csv-table "/static/uploads/deniro.csv" >}}
