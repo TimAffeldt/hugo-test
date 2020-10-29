@@ -1,38 +1,4 @@
 
-<i>rendered with one file for all roads</i>
-
-{{ $roads := slice }}
-{{ range $.Site.Data.closures2.clousures }}
-{{ $roads = $roads | append .road }}
-{{ end }}
-{{ $roads = uniq $roads | sort }}
-
-
-<div>
-    {{ range $roads }}
-    <div>
-        <h2>{{ . }}</h2>
-        {{ $road := . }}
-
-
-        {{ range where $.Site.Data.closures2.clousures "road" $road }}
-        
-        {{.date}}
-        <p>{{.description | safeHTML }}</p>
-        {{ if .detour }}
-        <p><b>DETOUR</b> {{.detour | safeHTML }}</p>
-        {{ end }}
-        {{ end }}
-       
-    </div>
-    {{ end }}
-</div>
-
-
-<hr />
-
-<i>rendered with separate files per road</i>
-
 <div>
     {{ range $.Site.Data.roads }}
     <h2>{{ .name }}</h2>
