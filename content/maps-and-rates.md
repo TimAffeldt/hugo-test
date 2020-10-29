@@ -1,10 +1,6 @@
 ---
 title: Maps and Rates
 date: 2020-10-14T08:34:38.000-07:00
-menu:
-  main:
-    name: About
-    weight: 3
 draft: true
 
 ---

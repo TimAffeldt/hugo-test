@@ -1,4 +1,23 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-theme = "ananke"
+theme = "tca"
 title = "The Toll Roads"
+
+[menu]
+  [[menu.main]]
+    name = "Transaction Tables"
+    url = "/transaction-tables/"
+    weight = 1
+  [[menu.main]]
+    name = "Closures & Detours"
+    url = "/closures-detours/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "#"
+    weight = 3
+  [[menu.main]]
+    name = "Maps & Rates"
+    url = "/maps-and-rates/"
+    parent = "About"
+    weight = 4
