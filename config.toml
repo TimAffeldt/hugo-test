@@ -3,25 +3,25 @@ languageCode = "en-us"
 theme = "tca"
 title = "The Toll Roads"
 [[menu.main]]
-name = "Closures & Detours"
-parent = "News and Alerts"
-url = "/closures-detours/"
-weight = 1
-[[menu.main]]
-name = "News and Alerts"
-url = "#"
-weight = 2
-[[menu.main]]
 name = "Transaction Tables"
 parent = "About TCA"
 url = "/transaction-tables/"
 weight = 2
+[[menu.main]]
+name = "Closures & Detours"
+parent = "News and Alerts"
+url = "/closures-detours/"
+weight = 1
 [[menu.main]]
 name = "Maps & Rates"
 parent = "About TCA"
 url = "/maps-and-rates/"
 weight = 1
 [[menu.main]]
-name = "About TCA"
+name = "News and Alerts"
 url = "#"
 weight = 1
+[[menu.main]]
+name = "About TCA"
+url = "#"
+weight = 2
