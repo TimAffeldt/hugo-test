@@ -19,7 +19,7 @@ Fees are assessed on new development within the areas of benefit of the 73, 133,
 
 
 [View larger map (Opens in a new window) ](https://thetollroads.com/sites/default/files/dif-map/index.html)  
-![Fee Zone Legend](https://thetollroads.com/sites/default/files/img/banner/TCAFeeZone_Legend_Large.JPG =219x154)
+![Fee Zone Legend](https://thetollroads.com/sites/default/files/img/banner/TCAFeeZone_Legend_Large.JPG?=219x154)
 
 ### General Information About the Fee Program
 
