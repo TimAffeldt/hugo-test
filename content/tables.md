@@ -13,6 +13,11 @@ draft: true
 
 {{< csv-table "/static/uploads/hurricanes.csv" >}}
 
-### De Niro Movies
+### Table title
 
-{{< csv-table "/static/uploads/deniro.csv" >}}
+| Col 1 | Col 2 | Col 3 |
+| --- | --- | --- |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
