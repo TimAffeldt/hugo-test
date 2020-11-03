@@ -60,3 +60,13 @@ Please keep in mind that The Toll Roads’ official social media accounts are in
 Comments or posts including customer information will be deleted at the end of each calendar month or once the issue is resolved. Direct messages will be deleted at the end of each calendar year or once an issue is resolved.
 
 The Toll Roads are not responsible for comments or posts placed on its social media accounts by visitors. Commenters are personally responsible for their own comments, username and/or any information they share. We ask that commenters be mindful of the information shared on The Toll Roads social media accounts.
+
+
+
+### Table title
+
+| Header | Header | Header |
+| --- | --- | --- |
+| Cell | ![](/uploads/untitled.png) | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
