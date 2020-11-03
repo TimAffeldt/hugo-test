@@ -20,3 +20,5 @@ _Effective July 1st, 2019_
 [**Calculate a Toll Online**](https://thetollroads.com/tolls/calculator)
 
 ![Toll Roads Map](https://thetollroads.com/sites/default/files/toll_roads_map_rates.jpg)
+
+_Tollroads map_
