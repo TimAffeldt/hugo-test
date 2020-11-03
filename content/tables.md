@@ -13,7 +13,7 @@ draft: true
 
 {{< csv-table "/static/uploads/hurricanes.csv" >}}
 
-### Table title
+### MarkDown Table
 
 | Col 1 | Col 2 | Col 3 |
 | --- | --- | --- |
