@@ -3,8 +3,8 @@ date = 2020-10-29T07:00:00Z
 draft = true
 title = "Social Media Guidelines "
 [menu.main]
-parent = "News and Alerts"
-weight = 2
+parent = "About TCA"
+weight = 3
 
 +++
 **The Toll Roads: Social Media Guidelines**
